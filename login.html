@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>FOCUS - Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <div class="login-container">
+    <img src="assets/logo.png" alt="FOCUS Logo" class="logo-login">
+    <h1>Bem-vindo de volta!</h1>
+    <p>Acesse sua conta para continuar</p>
+
+    <form action="index.html" onsubmit="return validarLogin()">
+      <input type="email" id="email" placeholder="E-mail" required>
+      <input type="password" id="senha" placeholder="Senha" required>
+      <a href="#">Esqueceu sua senha?</a>
+      <button type="submit">ENTRAR</button>
+    </form>
+
+    <p>Ou entre com</p>
+    <div class="social-login">
+      <button class="facebook">Facebook</button>
+      <button class="google">Google</button>
+      <button class="instagram">Instagram</button>
+    </div>
+
+    <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>FOCUS - Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="FOCUS Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="publicacoes.html">Publicações</a></li>
+        <li><a href="metas.html">Metas</a></li>
+        <li><a href="reels.html">Reels</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="chat-page">
+    <!-- Lista de contatos -->
+    <aside class="contatos">
+      <h2>Mensagens</h2>
+      <ul>
+        <li onclick="abrirChat('Lucas Silva')">Lucas Silva</li>
+        <li onclick="abrirChat('Ana Paula')">Ana Paula</li>
+        <li onclick="abrirChat('Ricardo Coach')">Ricardo Coach</li>
+      </ul>
+
+      <h2>Salas de Chat</h2>
+      <ul>
+        <li onclick="abrirChat('Mindset Vencedor')">Mindset Vencedor</li>
+        <li onclick="abrirChat('Bem-Estar & Equilíbrio')">Bem-Estar & Equilíbrio</li>
+      </ul>
+    </aside>
+
+    <!-- Área de conversa -->
+    <section class="chat-area">
+      <h2 id="chatTitulo">Selecione um contato ou sala</h2>
+      <div id="chatMensagens" class="mensagens"></div>
+
+      <div class="chat-input">
+        <input type="text" id="mensagemInput" placeholder="Digite uma mensagem...">
+        <button onclick="enviarMensagem()">Enviar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Conecte. Cresça. Conquiste.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

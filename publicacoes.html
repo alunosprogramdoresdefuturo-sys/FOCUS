@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>FOCUS - Publicações</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="FOCUS Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="publicacoes.html">Publicações</a></li>
+        <li><a href="metas.html">Metas</a></li>
+        <li><a href="reels.html">Reels</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Criar nova publicação -->
+    <section class="criar-post">
+      <h2>Criar Publicação</h2>
+      <textarea id="postText" placeholder="O que você está pensando?"></textarea>
+      <button onclick="publicar()">Compartilhar</button>
+    </section>
+
+    <!-- Feed de publicações -->
+    <section id="feed" class="feed">
+      <article>
+        <h3>João Silva</h3>
+        <p>Comecei meu dia com uma corrida! 🏃‍♂️ #Superação</p>
+      </article>
+      <article>
+        <h3>Ana Costa</h3>
+        <p>Consegui terminar o livro que tanto queria ler! 📚 #MetaAlcançada</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Conecte. Cresça. Conquiste.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
