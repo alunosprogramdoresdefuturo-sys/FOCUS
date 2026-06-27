@@ -1,0 +1,337 @@
+body.login-page {
+  background: linear-gradient(to bottom, #2e1a47, #4b2d73);
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: rgba(60, 36, 96, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+}
+
+.logo-login {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #7a4fcf;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.social-login button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.facebook { background: #3b5998; color: #fff; }
+.google { background: #fff; color: #000; }
+.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: #fff; }
+/* Fonte moderna e suave */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #2e1a47, #4b2d73);
+  color: #fff;
+}
+
+/* Cabeçalho */
+header {
+  background: rgba(60, 36, 96, 0.95);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffccff;
+}
+
+/* Seções */
+main {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Botões */
+button {
+  background: #7a4fcf;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #9a6fff;
+}
+
+/* Barra de progresso */
+.progress-bar {
+  background: #3c2460;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress {
+  background: linear-gradient(90deg, #7a4fcf, #ffccff);
+  height: 100%;
+  transition: width 0.5s;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(60, 36, 96, 0.95);
+  font-size: 14px;
+}
+.criar-post {
+  margin-bottom: 30px;
+}
+
+.criar-post textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.feed article {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.feed h3 {
+  margin: 0;
+  font-weight: 600;
+  color: #ffccff;
+}
+
+.feed p {
+  margin: 5px 0 0;
+}
+.meta-atual, .metas-concluidas, .sugestoes-metas {
+  margin-bottom: 30px;
+}
+
+.meta-atual h2, .metas-concluidas h2, .sugestoes-metas h2 {
+  color: #ffccff;
+}
+
+.sugestoes-metas ul li {
+  margin: 8px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sugestoes-metas ul li:hover {
+  color: #9a6fff;
+}
+.reels-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reel {
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.reel video {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.reel p {
+  font-weight: 600;
+  color: #ffccff;
+}
+.chat-page {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contatos {
+  width: 25%;
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.contatos h2 {
+  color: #ffccff;
+  margin-top: 0;
+}
+
+.contatos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contatos li {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.contatos li:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.chat-area {
+  flex: 1;
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagens {
+  flex: 1;
+  background: rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.chat-input button {
+  padding: 10px 15px;
+}
+.perfil-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.perfil-info {
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #ffccff;
+}
+
+.perfil-metas ul, .perfil-conquistas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.perfil-metas li, .perfil-conquistas li {
+  background: rgba(255,255,255,0.05);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.progresso-meta {
+  color: #ffccff;
+  font-weight: bold;
+}
+background: linear-gradient(135deg, #2e1a47, #4b2d73);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.logo {
+  height: 80px;       /* altura do logo */
+  width: auto;        /* mantém proporção */
+  filter: drop-shadow(0 0 12px #FF4FF8); /* brilho neon */
+  margin-right: 20px;
+}
